@@ -4,7 +4,7 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
-      day: "friday"
+      day: "thursday"
       time: "08:00"
       timezone: "Europe/London"
     labels:
@@ -15,7 +15,7 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
-      day: "friday"
+      day: "thursday"
       time: "08:00"
       timezone: "Europe/London"
     versioning-strategy: increase-if-necessary
@@ -43,7 +43,7 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-      day: "friday"
+      day: "thursday"
       time: "08:00"
       timezone: "Europe/London"
     # Workaround to have two "pip" ecosystems: actively setting "target-branch: main" for one config, and leaving it unset for the other config
@@ -93,7 +93,7 @@ updates:
     directory: "/"
     schedule:
       interval: "monthly"
-      day: "friday"
+      day: "thursday"
       time: "08:00"
       timezone: "Europe/London"
     versioning-strategy: increase-if-necessary
